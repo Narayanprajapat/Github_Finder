@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f4a9a8;
+}
+.head {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 2%;
+}
+.section {
+	display: block;
+	background-color: #afb9c8;
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 0px 20px rgba(69, 64, 64, 0.75);
+	border-radius: 50px;
+}
+.section:hover {
+	display: block;
+	background-color: #c4c5c7;
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+	border-radius: 50px;
+}
+
+.image {
+	width: 70%;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.username {
+	font-size: 48px;
+}
+.bio {
+	font-size: 32px;
+	float: center;
+}
+
+.close {
+	font-size: 32px;
+	float: right;
+	font-weight: bolder;
+	margin-right: 10px;
+	cursor: pointer;
+	font-family: monospace;
+}
+.close:hover {
+	font-size: 36px;
+	font-weight: bolder;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	font-family: monospace;
+}
+.header {
+	/* background-color: #8675a9; */
+	padding: 1%;
+	margin: 1%;
+}
+
+.inputUser {
+	background-color: blanchedalmond;
+	width: 20%;
+	height: 30px;
+	text-indent: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+button {
+	background-color: blanchedalmond;
+	width: 5%;
+	font-size: 20px;
+	padding: 3px;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin-left: 1%;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #afb9c8;
+}
+.sortBy {
+	background-color: blanchedalmond;
+	width: 10%;
+	height: 30px;
+	font-size: 20px;
+	margin-top: 1%;
+	margin-left: 5px;
+	border: 2px solid black;
+}
+.sortLabel {
+	font-size: 20px;
+}
